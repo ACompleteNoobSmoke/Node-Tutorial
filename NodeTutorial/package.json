@@ -1,17 +1,18 @@
 {
-  "name": "nodetutorial",
-  "version": "1.0.0",
-  "description": "Node Crash Course Tutorial - March 6, 2020",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Omoruyi Omofonmwan",
-  "license": "ISC",
-  "dependencies": {
-    "uuid": "^7.0.2"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.2"
-  }
+    "name": "nodetutorial",
+    "version": "1.0.0",
+    "description": "Node Crash Course Tutorial - March 6, 2020",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index",
+        "dev": "nodemon index"
+    },
+    "author": "Omoruyi Omofonmwan",
+    "license": "ISC",
+    "dependencies": {
+        "uuid": "^7.0.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    }
 }
